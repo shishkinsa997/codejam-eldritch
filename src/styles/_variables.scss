@@ -1,0 +1,36 @@
+$primary: #403f3d;
+$inverse: #e1d4c9;
+$accent: #b0907a;
+$primary-dark: #e1d4c9;
+$inverse-dark: #e1d4c9;
+$accent-dark: #b0907a;
+
+$page: #e1d4c9;
+$container: #665f55;
+$overlay: rgb(64, 63, 61, 0.8);
+$page-dark: #292826;
+$container-dark: #403f3d;
+$overlay-dark: rgb(41, 40, 38, 0.8);
+
+$border: #c1b6ad;
+$border-inverse: #665f55;
+$border-dark: #665f55;
+$border-inverse-dark: #c1b6ad;
+
+$mobile: 380px;
+$mobile-l: 680px;
+$tablet: 768px;
+$tablet-l: 900px;
+$laptop: 1024px;
+$laptop-l: 1290px;
+$desktop: 1440px;
+
+$breakpoints: (
+  mobile: 380px,
+  mobile-l: 680px,
+  tablet: 768px,
+  tablet-l: 900px,
+  laptop: 1024px,
+  laptop-l: 1290px,
+  desktop: 1440px,
+);
