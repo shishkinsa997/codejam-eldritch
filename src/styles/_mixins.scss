@@ -33,60 +33,6 @@
   font-style: italic;
 }
 
-@mixin h1 {
-  font-size: 4.5rem;
-  font-weight: 600;
-  line-height: 105%;
-}
-
-@mixin h2 {
-  font-size: 3.75rem;
-  font-weight: 600;
-  line-height: 125%;
-}
-
-@mixin h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 125%;
-}
-
-@mixin medium {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 150%;
-}
-
-@mixin caption {
-  font-size: 0.625rem;
-  font-weight: 600;
-  line-height: 140%;
-}
-
-@mixin link {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 150%;
-}
-
-@mixin burger {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 125%;
-}
-
-@mixin h1-mobile {
-  font-size: 2.625rem;
-  font-weight: 600;
-  line-height: 115%;
-}
-
-@mixin h2-mobile {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 125%;
-}
-
 @mixin mobile {
   @media (max-width: v.$mobile) {
     @content;
