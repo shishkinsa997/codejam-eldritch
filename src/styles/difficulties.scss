@@ -1,0 +1,43 @@
+@use "_variables.scss" as v;
+@use "_mixins.scss" as *;
+
+#difficulties {
+  @include flex-center;
+  gap: 2.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+
+  .difficulty {
+    @include flex-column;
+    overflow: hidden;
+    color: v.$inverse;
+    max-width: 30rem;
+    min-width: 20rem;
+    min-height: 10rem;
+    width: 100%;
+    height: 100%;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    border: 0.2rem solid v.$border;
+    border-radius: 2rem;
+    background-color: v.$page-dark;
+  }
+
+  .difficulty-name {
+    text-transform: capitalize;
+  }
+
+  #very-easy {
+    background-color: #865e77;
+  }
+  #easy {
+    background-color: #3e6c32;
+  }
+  #normal {
+    background-color: #ac7b40;
+  }
+  #hard {
+    background-color: #882828;
+  }
+}
